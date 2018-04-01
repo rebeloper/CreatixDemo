@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C9B73A08206FEE5D002A3A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B73A07206FEE5D002A3A7D /* AppDelegate.swift */; };
-		C9B73A0A206FEE5D002A3A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B73A09206FEE5D002A3A7D /* ViewController.swift */; };
-		C9B73A0D206FEE5D002A3A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B73A0B206FEE5D002A3A7D /* Main.storyboard */; };
 		C9B73A0F206FEE5E002A3A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B73A0E206FEE5E002A3A7D /* Assets.xcassets */; };
 		C9B73A12206FEE5E002A3A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B73A10206FEE5E002A3A7D /* LaunchScreen.storyboard */; };
+		C9B73A1A206FEE9D002A3A7D /* Creatix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B73A19206FEE9C002A3A7D /* Creatix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9B73A04206FEE5D002A3A7D /* CreatixDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatixDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B73A07206FEE5D002A3A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9B73A09206FEE5D002A3A7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9B73A0C206FEE5D002A3A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9B73A0E206FEE5E002A3A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B73A11206FEE5E002A3A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9B73A13206FEE5E002A3A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B73A19206FEE9C002A3A7D /* Creatix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creatix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				C9B73A07206FEE5D002A3A7D /* AppDelegate.swift */,
-				C9B73A09206FEE5D002A3A7D /* ViewController.swift */,
-				C9B73A0B206FEE5D002A3A7D /* Main.storyboard */,
 				C9B73A0E206FEE5E002A3A7D /* Assets.xcassets */,
 				C9B73A10206FEE5E002A3A7D /* LaunchScreen.storyboard */,
 				C9B73A13206FEE5E002A3A7D /* Info.plist */,
+				C9B73A19206FEE9C002A3A7D /* Creatix.swift */,
 			);
 			path = CreatixDemo;
 			sourceTree = "<group>";
@@ -124,7 +121,6 @@
 			files = (
 				C9B73A12206FEE5E002A3A7D /* LaunchScreen.storyboard in Resources */,
 				C9B73A0F206FEE5E002A3A7D /* Assets.xcassets in Resources */,
-				C9B73A0D206FEE5D002A3A7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B73A0A206FEE5D002A3A7D /* ViewController.swift in Sources */,
+				C9B73A1A206FEE9D002A3A7D /* Creatix.swift in Sources */,
 				C9B73A08206FEE5D002A3A7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9B73A0B206FEE5D002A3A7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9B73A0C206FEE5D002A3A7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9B73A10206FEE5E002A3A7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
